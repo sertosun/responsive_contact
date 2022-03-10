@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0em;
+}
+
+body {
+  background-color: rgb(196, 193, 193);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 60%;
+  padding: 1em;
+}
+
+.container > * {
+  margin-bottom: 1em;
+}
+
+.mailadress input {
+  padding: 0.5em;
+  width: 100%;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  padding: 1em 2em;
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+}
